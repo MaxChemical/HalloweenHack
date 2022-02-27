@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Applekid;
+  src: url('../fonts/apple_kid.woff');
+}
+
+@font-face {
+  font-family: Wingding;
+  src: url('../fonts/wingding.woff');
+  size-adjust: 60%;
+}
+
+body {
+  font-family: Applekid;
+  color: #ccc;
+  line-height: 1.0;
+  background-color: rgb(66, 66, 66);
+  background-image: url('../images/bg.gif');
+  background-size: 4%;
+}
+
+
+.Gallery {
+  text-align: center;
+  display: block;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#descriptiontable,
+#Wingdingdescriptiontable {
+  font-size: 2.9vmin;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#downloadtable {
+  font-size: 3.1vmin;
+  color: #ddd;
+  /*border: 1px solid black;
+   border-collapse: collapse;
+  background-image: url('../images/bg.gif');
+  background-size: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#censortable {
+  font-size: 3.1vmin;
+  color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
